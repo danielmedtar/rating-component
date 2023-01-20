@@ -26,6 +26,10 @@ h1 {
   color: var(--white);
 }
 
+h1 a:hover {
+  color: var(--orange);
+}
+
 p {
   color: var(--light-grey);
   font-size: 15px;

@@ -12,6 +12,7 @@ function App() {
 
   return (
    <>
+    <h1 className="text-2xl text-center mb-5">Solution By: <a href="https://danielmedinatariba.com/" target="_blank" rel="noreferrer" className="underline name-daniel">Daniel Medina</a></h1>
     {!submitted && (
       <div className="wrapper">
         <img src={star} alt="Star Icon" className="bg-gray-700 p-2 rounded-full" />
